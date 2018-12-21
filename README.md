@@ -30,7 +30,7 @@ and an interpreter for *Amy Language* that is a subset of *Scala* with limited f
 4) To generate *web assembly* code type `run <dependencies> examples/<your program with .scala extension>` inside *sbt*,
 	then type `exit` to exit *sbt*.
 	
-5) Type node  `wasmout/<your program with .js extension>`
+5) Type `node wasmout/<your program with .js extension>`
 
 ## Example run:
 	

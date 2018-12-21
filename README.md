@@ -5,6 +5,18 @@ and an interpreter for *Amy Language* that is a subset of *Scala* with limited f
 
 + *Amy Language* specifications can be found in the file `amy-spec.pdf`
 
+## The Compiler Construction Pipeline
+
+1) *Lexer*
+
+2) *Parser*
+
+3) *Name Analyzer*
+
+4) *Type Checker*
+
+5) *Code Generation*
+
 ## To run an Amy program:
 	
 1) Clone this repository.
@@ -15,7 +27,7 @@ and an interpreter for *Amy Language* that is a subset of *Scala* with limited f
 
 3) Open a command line, navigate here and open *sbt* by typing `sbt`.
 
-4) To generate web assembly code type `run <dependencies> examples/<your program with .scala extension>` inside *sbt*,
+4) To generate *web assembly* code type `run <dependencies> examples/<your program with .scala extension>` inside *sbt*,
 	then type `exit` to exit *sbt*.
 	
 5) Type node  `wasmout/<your program with .js extension>`
